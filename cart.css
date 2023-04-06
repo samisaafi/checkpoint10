@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-image: url('another-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    position: relative;
+    border: 1px solid #e67e22;
+    display: flex;
+    justify-content: space-between;
+    height: 136px;
+    padding: 2rem;
+    background-color: #34495e;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  header ul {
+    display: flex;
+    width: 25%;
+    list-style: none;
+  }
+  
+  header li {
+    margin-right: 2%;
+    border: 1px solid #e67e22;
+    width: 60px;
+    height: 40px;
+    padding: 8px;
+    background-color: #e67e22;
+    border-radius: 5px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  #cart {
+    background-color: #e67e22;
+  }
+  
+  main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e67e22;
+  }
+  
+  .cart-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e67e22;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .Quantity {
+    width: 20%;
+  }
+  
+  .Quantity input {
+    text-align: center;
+  }
+  
+  .prices {
+    width: 20%;
+  }
+  
+  .total {
+    width: 20%;
+  }
+  
+  .article {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .article p {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .article img {
+    width: 15%;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    width: 32%;
+    padding-left: 2rem;
+    flex-direction: column;
+  }
+  
+  .quantity button {
+    margin-top: 0.5rem;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+    width: 32%;
+    padding-left: 2rem;
+  }
+  
+  i {
+    width: 5%;
+  }
+  
+  .article button {
+    height: 2rem;
+    width: 5rem;
+    font-weight: bold;
+    background-color: #e67e22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .commander {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .commander h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e67e22;
+    margin-right: 1rem;
+  }
+  
+  .MakePrice {
+    background: #e67e22;
+    font-size: 1rem;
+    border: none;
+    border-radius: 22px;
